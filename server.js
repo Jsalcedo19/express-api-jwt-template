@@ -16,7 +16,7 @@ mongoose.connection.on('connected', () => {
 });
 
 app.use(express.json());
-
+app.use(cors())
 
 
 // Routes go here
