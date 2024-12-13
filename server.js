@@ -29,6 +29,6 @@ app.get('/',(req, res) => {
 res.json({ 'message':'Welcome' });
 });
 
-app.listen(3000, () => {
-  console.log(`The express app is ready on  http://localhost:${PORT}`);
+app.listen(PORT, () => {
+  console.log(`The express app is ready`);
 });
