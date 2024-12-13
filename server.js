@@ -7,7 +7,7 @@ const testJWTRouter = require('./controllers/test-jwt');
 const usersRouter = require('./controllers/users')
 const profilesRouter = require('./controllers/profiles');
 
-PORT = process.env.PORT || 3000;
+PORT = process.env.PORT;
 
 mongoose.connect(process.env.MONGODB_URI);
 
